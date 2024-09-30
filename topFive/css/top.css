@@ -1,0 +1,235 @@
+/* Font */
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  /* CSS */ 
+
+
+
+  /* ------------- header -------------*/ 
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+html {
+    background-color: rgb(255, 234, 47);
+}
+
+header {
+    background-color: #504edc;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+	padding-bottom: 2%;
+}   
+
+#logo {
+    width: 80px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Spicy Rice', serif;
+    color: #57f645;
+	font-size: 100px;
+    text-shadow: 2px 2px black;
+    margin: 0 auto;
+    padding-right: 50%;
+
+}
+
+
+nav {
+    align-self: flex-end;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	width: 40%;
+    padding-right: 5%;
+    margin-left: 5%;
+    font-family: 'Spicy Rice', serif;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+	font-size: 18px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #57f645;
+	text-shadow: -2px -2px black;
+	cursor: default;
+}
+
+/* ---------- section ------------ */
+
+
+.who {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #57f645;
+    border-radius: 80px;
+    background: #0D0D0D;
+    color: #ffffff;
+    font-family: 'Rowdies', sans-serif;
+    text-align: center;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap; 
+	justify-content: space-around;  
+}
+
+
+article {
+    border: 1px dashed black;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    position: relative; 
+    background-color: white;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kind {
+    text-align: center;
+    padding: 2%;
+    margin: 2% 35%;
+    font-family: 'Spicy Rice', sans-serif ;
+    border: 3px solid #504edc;
+    background-color: #504edc;
+    text-shadow: 2px 2px black;
+    border-radius: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+.doc {
+	text-align: justify;
+	text-justify:inter-word;
+    padding: 2%; 
+    font-family: 'Rowdies', sans-serif;
+}
+
+.movies {
+    padding: 6%;
+    font-family: 'Rowdies', sans-serif;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.movies li {
+    margin: 10px;
+}
+
+.movies img {
+    margin-bottom: 20px;
+}
+
+.link {
+    color: black;
+}
+
+#taylor {
+    padding: 2%;
+    font-family: 'Rowdies', sans-serif;
+    display: flex;
+    justify-content: center; 
+}
+
+#taylor li {
+    margin: 10px;
+}
+
+#taylor a,img {
+    margin-bottom: 20px;
+}
+
+.doc3 {
+    text-align: justify;
+	text-justify:inter-word;
+    padding-top: 5%; 
+    padding-bottom: 2%;
+    margin: 0;
+    font-family: 'Rowdies', sans-serif;
+    text-align: center;
+}
+
+.food {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.foodimg {
+    padding-left: 5%;
+    margin-right: 20px; 
+}
+
+.food dd {
+    margin: 0;
+    padding-right: 5%;
+    font-family: 'Rowdies', sans-serif;
+}
+
+
+
+
+
+/* ---------- footer ------------ */
+
+
+footer {
+    margin-top: 2%;
+    padding: 10px;
+    border: 2px solid #57f645;
+    background:  #504edc;
+    color: #ffffff;
+	text-align: center;
+    font-family: 'Spicy Rice', sans-serif;
+}
