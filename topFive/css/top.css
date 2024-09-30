@@ -66,9 +66,9 @@ h1 {
     color: #57f645;
 	font-size: 100px;
     text-shadow: 2px 2px black;
-    margin: 0 auto;
-    padding-right: 50%;
-
+    margin: 0;
+    padding-right: 20%;
+    padding-left: 30%;
 }
 
 
